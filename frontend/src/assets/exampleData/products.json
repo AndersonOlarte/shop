@@ -1,0 +1,18 @@
+[
+    {
+        "id": "123456729",
+        "name": "Martillo",
+        "typeProduct":"Ferretería",
+        "amount": 120,
+        "unitValue": 12300,
+        "saleValue": 15400
+    },
+    {
+        "id": "123452789",
+        "name": "Destornillador",
+        "typeProduct":"Ferretería",
+        "amount": 210,
+        "unitValue": 1200,
+        "saleValue": 3999
+    }
+]

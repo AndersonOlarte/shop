@@ -1,0 +1,14 @@
+.card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.card-info {
+    width: 200px;
+    height: 150px;
+    text-align: center;
+}
+.card-info h2 {
+    font-size: 2em;
+}

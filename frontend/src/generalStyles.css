@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+    font-size: 0.99em;
+ }
+.container {
+    padding: 25px 30px;
+    border-radius: 10px;
+    box-shadow: -1px 1px 30px 2px rgba(0, 0, 0, 0.214);
+    margin: 20px;
+}
+section {
+    width: fit-content;
+}
+main {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.formDonut-section {
+    min-width: 300px;
+    max-width:40%;
+}
+
+
