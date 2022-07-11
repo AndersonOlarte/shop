@@ -2,24 +2,70 @@
     box-sizing: border-box;
     font-size: 0.99em;
  }
+
+ /* -------------------------------------------Tags--------------------------------- */
+ main {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+
+section {
+    width: fit-content;
+}
+input {
+    border: none;
+    border-bottom: solid 1px gray;
+    width: auto;
+    height: 25px;
+    border: none;
+    background-color: rgb(242, 240, 240);
+}
+
+
+label {
+    font-size: 0.83em;
+}
+
+select {
+    border: none;
+    width: 80%;
+}
+/* --------------------------------------Generalizations---------------------------- */
 .container {
     padding: 25px 30px;
     border-radius: 10px;
     box-shadow: -1px 1px 30px 2px rgba(0, 0, 0, 0.214);
     margin: 20px;
 }
-section {
-    width: fit-content;
-}
-main {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: nowrap;
-}
-
-.formDonut-section {
-    min-width: 300px;
-    max-width:40%;
+.accept-button {
+    background-color: green;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
 }
 
+.accept-button:hover {
+    background-color: rgb(1, 98, 1);
+    transition: 0.2s;
+}
+
+.reject-button {
+    background-color: rgb(203, 203, 203);
+    border: none;
+    transition: 0.2s;
+    cursor: pointer;
+    transition: 0.3;
+}
+
+.reject-button:hover {
+    background-color: rgb(186, 183, 183);
+    transition: 0.2s;
+}
+
+.hidden-class {
+    display: none;
+}
 

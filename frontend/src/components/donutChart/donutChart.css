@@ -1,3 +1,7 @@
+.formDonut-section {
+    min-width: 300px;
+    max-width:40%;
+}
 .donutContainer {
     width:85%;
 }

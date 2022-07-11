@@ -5,64 +5,28 @@
     font-size: 0.85em;
 }
 
-.form>* {
+.form > * {
     margin: 4px 0px;
 }
 
-input {
-    border: none;
-    border-bottom: solid 1px gray;
-    width: auto;
-    height: 25px;
-    border: none;
-    background-color: rgb(242, 240, 240);
-}
-
-
-label {
-    font-size: 0.83em;
-}
-
-select {
-    border: none;
-    width: 80%;
-}
-
-.accept-button {
-    background-color: green;
-    border: none;
-    color: white;
-    transition: 0.2s;
+.add-change-button {
     width: 38%;
     height: 30px;
     margin-top: 10px;
     margin-right: 20px;
-    cursor: pointer;
-    transition: 0.3;
 }
 
-.accept-button:hover {
-    background-color: rgb(1, 98, 1);
-    transition: 0.2s;
+.add-change-button:hover {
     width: 43%;
     margin: 0px 14px 0px 0px;
 }
-
-.reject-button {
-    background-color: rgb(203, 203, 203);
-    border: none;
-    transition: 0.2s;
+.cancel-delete-button {
     width: 38%;
     height: 30px;
     margin-top: 10px;
     margin-right: 20px;
-    cursor: pointer;
-    transition: 0.3;
 }
-
-.reject-button:hover {
-    background-color: rgb(186, 183, 183);
-    transition: 0.2s;
+.cancel-delete-button:hover {
     width: 43%;
     margin: 0px 14px 0px 0px;
 }

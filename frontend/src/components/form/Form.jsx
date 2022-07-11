@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useForm } from '../../assets/hooks/useForm';
 import './form.css';
 
-export const Form = ({keysMap, handleNewRow,handleChangeRow, rows}) => {
+export const Form = ({claName, keysMap, handleNewRow,handleChangeRow, rows}) => {
 
     const {fields, onInputChange, onResetForm} = useForm({
         "id":"",
@@ -30,7 +30,7 @@ export const Form = ({keysMap, handleNewRow,handleChangeRow, rows}) => {
     }
 
     return(
-            <form className="container form">
+            <form className={`container ${claName}`}>
                 <h2>{addItem ? "Add New Product": "Change Product"}</h2>
                 <input
                     name = "id"
@@ -76,13 +76,13 @@ export const Form = ({keysMap, handleNewRow,handleChangeRow, rows}) => {
                 />
                 <div id='form_button-container'>
                     <input
-                        className = 'accept-button'
+                        className = 'accept-button add-change-button '
                         value ="agregar"
                         type= "button"
                         onClick={handleClickAccept}
                     />
                     <input
-                        className='reject-button'
+                        className='reject-button cancel-delete-button'
                         onClick={onResetForm}
                         type = "button"
                         value="borrar"
